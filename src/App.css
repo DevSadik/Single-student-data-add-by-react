@@ -1,0 +1,59 @@
+.heading {
+    text-align: center;
+}
+
+.heading h1 {}
+
+.heading h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.heading p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+}
+
+.student-data {
+    text-align: center;
+    padding: 20px 0;
+}
+.student-data .student-name{}
+.student-data .student-name h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.student-data .student-skill {
+    color: #e74c3c;
+}
+.student-data .student-photo{}
+.student-data .student-photo img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.student-data.team {
+    text-align: left;
+    padding: 20px 0;
+}
+.student-data.team .student-photo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 115px 25px;
+}
+.student-data.team .student-name h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #777;
+}
+.student-data.team h2 {
+    font-size: 20px;
+    background: red;
+    width: 50%;
+    color: #fff;
+    font-style: italic;
+}
